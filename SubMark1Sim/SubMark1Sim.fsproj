@@ -72,8 +72,11 @@
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
     <InterfaceDefinition Include="Main.storyboard" />
+    <Compile Include="Submarine.fs" />
+    <Compile Include="ViewController.fs" />
     <Compile Include="AppDelegate.fs" />
     <Compile Include="Main.fs" />
+    <BundleResource Include="Resources\starfish_01.stl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.FSharp.targets" />
 </Project>
